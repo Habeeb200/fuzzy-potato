@@ -1,0 +1,36 @@
+#entire{
+    width: 600px;
+    margin: auto; 
+    margin-top: 40px
+}
+#btn1{
+    width: 50px;
+}
+#click{
+    margin-left: 480px; 
+    margin-top: 30px;
+}
+#mine{
+    width: 500px; 
+    background-color: white; 
+    border: 1px solid; 
+    padding: 30px; 
+    border-radius: 10px; 
+    border: none; 
+    box-shadow: 5px 5px 2px black; 
+    margin: auto; margin-top: 90px;
+}
+@media(max-width: 768px){
+    #entire{
+        width: 350px;
+    }
+    #btn1{
+        margin-bottom: 15px;
+    }
+    #click{
+        margin-left: 1%; 
+    }
+    #mine{
+        width: 350px;
+    }
+}
