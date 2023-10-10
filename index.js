@@ -84,6 +84,7 @@ let questions= [
 ]
 let i = 1
 render = " "
+
 questions.forEach((question)=>{
     render+=`
     <div class="numb" data-number="${question.category}" id="numb">
@@ -91,7 +92,7 @@ questions.forEach((question)=>{
         <div>
             <button class="btn border border-primary w-100 mb-2 btnn">${question.answer1}</button><br>
             <button class="btn border border-success w-100 mb-2 btnn">${question.answer2}</button>
-            <button class="btn border border-warning w-100 mb-2 btnn">${question.answer3}</button>
+            <button class="btn border border-warning w-100 mb-2 btnn">${question.answer3} </button>
             <button class="btn border border-secondary w-100 btnn" style="margin-bottom: 20px; ">${question.answer4}</button>
         </div>
     </div>
