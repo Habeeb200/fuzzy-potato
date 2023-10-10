@@ -7,6 +7,7 @@ let alle = document.getElementById("alle")
 display = " "
 buttons.forEach(button => {
     button.addEventListener("click", ()=>{
+        alle.innerHTML = " "
         btnNumber = button.dataset.number
         for(i=0;i<9;i++){
             if(i == btnNumber){
