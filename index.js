@@ -65,7 +65,7 @@ let questions= [
     },
     {
         questionn: "Who is the finest boy in class",
-        answer1:"chinonso",
+        answer1:"fortune",
         answer2: "habeeb",
         answer3: "kuma",
         answer4: "zama",
